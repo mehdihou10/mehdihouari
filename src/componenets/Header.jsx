@@ -87,7 +87,7 @@ const Header = () => {
 
   const val = headerRef.current;
 
-  if(e.currentTarget.scrollY >= 100){
+  if(e.currentTarget.scrollY >= 10){
 
     val ? val.classList.add('header-border') : null;
 
