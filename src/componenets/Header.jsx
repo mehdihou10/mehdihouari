@@ -45,8 +45,8 @@ const Header = () => {
      
       if(index !== list.children.length - 1){
 
-      if(window.scrollY >= document.getElementById(child.innerHTML.toLowerCase()).offsetTop &&
-      window.scrollY < document.getElementById(list.children[index + 1].innerHTML.toLowerCase()).offsetTop){
+      if(window.scrollY >= document.getElementById(child.innerHTML.toLowerCase()).offsetTop-50 &&
+      window.scrollY < document.getElementById(list.children[index + 1].innerHTML.toLowerCase()).offsetTop-50){
 
         Array.from(list.children).forEach(delChild => delChild.classList.remove('active'));
 
@@ -58,7 +58,7 @@ const Header = () => {
 
     } else{
 
-      if(window.scrollY >= document.getElementById(child.innerHTML.toLowerCase()).offsetTop){
+      if(window.scrollY >= document.getElementById(child.innerHTML.toLowerCase()).offsetTop-50){
 
         Array.from(list.children).forEach(delChild => delChild.classList.remove('active'));
 
