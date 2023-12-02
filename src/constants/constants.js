@@ -8,6 +8,14 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Full stack Social Media App',
+    description: "Bring your world to life with our seamless multimedia sharing capabilities,Keep up with the latest trends, news, and updates in real-time.",
+    image: '/images/18.png',
+    
+    visit: 'https://shareme-77ff7.web.app/',
+    id: 'a',
+  },
+  {
     title: 'Restaurant Website',
     description:"Valencina Restaurant is a charming culinary destination nestled in the heart of a picturesque town. With its warm and inviting atmosphere.",
     image: '/images/2.jpg',
@@ -83,7 +91,7 @@ export const projects = [
     description: "Dashbord Website 1 - Elevate your professional portfolio with a website that speaks volumes about your skills and expertise",
     image: '/images/11.jpg',
     
-    visit: 'https://google.com',
+    visit: 'https://mehdihou10.github.io/admin-dashboard/',
     id: 11,
   },
   {
