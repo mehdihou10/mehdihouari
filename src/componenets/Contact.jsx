@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className='pt-[100px]' id='contact'>
       <div className="container">
-        <SpecialTitle title='Contact' />
+        <SpecialTitle title='Work With Me' />
 
         <form action='https://formspree.io/f/mdovqwql' method="post" className='max-w-[600px] mx-auto'>
           <input required className='block bg-[transparent] w-full
