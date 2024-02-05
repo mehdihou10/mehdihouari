@@ -7,7 +7,7 @@ const Hero = () => {
     <div id='home'>
       <div className="container relative md:pt-[40px]">
         <div className="text max-w-[700px] relative z-[10]">
-          <h3 className='text-[28px] sm:text-[50px] lg:text-[63px] font-semibold text-gradient'>Welcom To <br />
+          <h3 className='text-[28px] sm:text-[50px] lg:text-[63px] font-semibold text-gradient'>Welcome To <br />
 My Personal Portfolio</h3>
 
        <p className='text-[rgba(255,255,255,0.5)] sm:text-[20px] lg:text-[24px] my-[30px] leading-[30px] sm:leading-[44px]'>
