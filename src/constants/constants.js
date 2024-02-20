@@ -151,56 +151,94 @@ export const projects = [
 export const TechnologiesImgs = [
   {
     image: '/images/html.png',
+    name: "html",
     id: 1
   },
 
   {
     image: '/images/css.png',
+    name: "css",
     id: 2
   },
 
   {
     image: '/images/javascript.png',
+    name: "javascript",
     id: 3
   },
 
   {
     image: '/images/bootstrap5.png',
+    name: "bootstrap",
     id: 4
   },
 
   {
     image: '/images/Tailwind-CSS.png',
+    name: "tailwind css",
     id: 5
   },
 
   {
     image: '/images/react.png',
+    name: "react js",
     id: 6
   },
 
   {
     image: '/images/redux.png',
+    name: "redux",
     id: 7
   },
 
   {
-    image: '/images/vite.png',
+    image: '/images/angular.png',
+    name: "angular",
     id: 8
   },
 
   {
     image: '/images/firebase.png',
+    name: "firebase",
     id: 9
   },
 
   {
-    image: '/images/git.png',
+    image: '/images/php.png',
+    name: "php",
     id: 10
   },
 
   {
-    image: '/images/github.png',
+    image: '/images/nodejs.png',
+    name: "node js",
     id: 11
+  },
+  {
+    image: '/images/expressjs.png',
+    name: "express js",
+    id: 12
+  },
+  {
+    image: '/images/mysql.png',
+    name: "mysql",
+    id: 13
+  },
+  {
+    image: '/images/mongodb.png',
+    name: "mongo db",
+    id: 14
+  },
+
+  {
+    image: '/images/git.png',
+    name: "git",
+    id: 15
+  },
+
+  {
+    image: '/images/github.png',
+    name: "github",
+    id: 16
   },
 ]

@@ -8,11 +8,12 @@ const Technologies = () => {
       <div className="container pt-[100px]">
         <SpecialTitle title='Technologies'/>
 
-        <div className="images grid grid-cols-3 sm:grid-cols-4 place-items-center gap-[30px]">
+        <div className="images grid grid-cols-3 sm:grid-cols-4 place-items-center gap-[40px]">
           {
             TechnologiesImgs.map(tech =>(
 
               <div key={tech.id} className="image">
+                <h3 className='text-white text-center text-[14px] font-bold capitalize'>{tech.name}</h3>
                 <img className='w-[80px]' src={tech.image} alt="tech" />
               </div>
 
