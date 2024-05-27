@@ -1,18 +1,35 @@
+import { useState } from 'react';
 import SpecialTitle from './SpecialTitle';
 import { projects } from '../constants/constants';
+import { FaChevronLeft,FaChevronRight } from "react-icons/fa6";
 
 const Projects = () => {
+
+  const [page,setPage] = useState(1);
+
+
   return (
     <div className='pt-[100px]' id='projects'>
     
     <div className="container">
     <SpecialTitle title='Projects' />
 
+<div className="pagination flex justify-center items-center gap-[20px] my-[30px]">
+
+  <div onClick={()=>setPage((prev)=>prev - 1)} className={`chevron ${page === 1 ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}><FaChevronLeft className='pointer-events-none' /></div>
+
+  <span className="page select-none grid place-items-center bg-blue-gradient w-[120px] h-[40px] text-[30px] font-semibold rounded-[6px]">{page}</span>
+
+  <div onClick={()=>setPage((prev)=>prev + 1)} className={`chevron ${page === projects.length - 1 ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}><FaChevronRight className='pointer-events-none' /></div>
+
+
+</div>
+
 <div className="projects grid md:grid-cols-2 xl:grid-cols-3 gap-[50px]">
   {
-    projects.map(project=>(
+    projects[page - 1].map((project,index)=>(
 
-      <div key={project.id} className="project rounded-[10px] overflow-hidden
+      <div key={index} className="project rounded-[10px] overflow-hidden
        relative shadow-main h-[620px] sm:h-[600px]">
 
         <img className='w-full object-cover h-[250px]' src={project.image} alt="project" />
@@ -28,6 +45,10 @@ const Projects = () => {
     ))
   }
 </div>
+
+
+
+
     </div>
     </div>
   )

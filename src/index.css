@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  .chevron{
+    @apply grid place-items-center text-[#ffffff80] bg-[#fff3] w-[40px] h-[40px] rounded-full cursor-pointer text-[18px]
+  }
+}
+
 html{
   scroll-behavior: smooth;
 }
