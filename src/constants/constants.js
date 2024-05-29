@@ -12,7 +12,7 @@ export const projects = [
       description: "Tech Empire is a leading retailer specializing in the sale of cutting-edge technology products and accessories.",
       image: '/images/20.jpg',
       
-      visit: 'https://tech-empire-three.vercel.app/',
+      visit: 'https://tech-empire.netlify.app/',
     },
     {
       title: 'Full stack Social Media App',
