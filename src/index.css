@@ -88,3 +88,11 @@ body{
 .header-border{
   border-bottom: 2px solid #802bb1;
 }
+
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  top: 50px;
+  bottom: auto;
+  transform: translateY(0);
+}

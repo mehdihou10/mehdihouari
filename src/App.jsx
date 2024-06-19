@@ -1,4 +1,4 @@
-import {Header,Hero,Technologies,Projects,Contact,Footer} from './componenets';
+import {Header,Hero,Technologies,Projects,Testimonials,Contact,Footer} from './componenets';
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
     <Hero />
     <Technologies />
     <Projects />
+    <Testimonials />
     <Contact />
     <Footer />
 

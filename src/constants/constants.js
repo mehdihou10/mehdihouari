@@ -240,3 +240,23 @@ export const TechnologiesImgs = [
     name: "github",
   },
 ]
+
+
+export const testimonials = [
+
+  {
+    image: "/images/testimonial-1.jpg"
+  },
+  {
+    image: "/images/testimonial-2.jpg"
+  },
+  {
+    image: "/images/testimonial-3.jpg"
+  },
+  {
+    image: "/images/testimonial-4.jpg"
+  },
+  {
+    image: "/images/testimonial-5.jpg"
+  },
+]

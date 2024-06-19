@@ -7,6 +7,7 @@ const List = ()=>(
 <li onClick={scrollToSection} className='active text-[rgba(255,255,255,0.75)] text-[20px] cursor-pointer select-none'>Home</li>
 <li onClick={scrollToSection} className='text-[rgba(255,255,255,0.75)] text-[20px] cursor-pointer select-none'>Skills</li>
 <li onClick={scrollToSection} className='text-[rgba(255,255,255,0.75)] text-[20px] cursor-pointer select-none'>Projects</li>
+<li onClick={scrollToSection} className='text-[rgba(255,255,255,0.75)] text-[20px] cursor-pointer select-none'>Testimonials</li>
 <li onClick={scrollToSection} className='text-[rgba(255,255,255,0.75)] text-[20px] cursor-pointer select-none'>Contact</li>
 </>
 )
@@ -118,7 +119,7 @@ useEffect(()=>{
           <img className='w-[100px]' src='/images/logo.png' alt="logo" />
         </a>
 
-        <ul ref={listRef1} className='first-ul hidden md:flex items-center gap-[50px]'>
+        <ul ref={listRef1} className='first-ul hidden lg:flex items-center gap-[50px]'>
          <List />
 
         </ul>
@@ -129,7 +130,7 @@ useEffect(()=>{
 
         </div>
 
-        <div className="responsive-content block md:hidden">
+        <div className="responsive-content block lg:hidden">
           {
             toggle ? <RiCloseLine className='cursor-pointer text-[35px]' onClick={()=> setToggle(false)} />
 
