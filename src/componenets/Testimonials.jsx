@@ -25,7 +25,7 @@ const Testimonials = () => {
         {
             testimonials.map((testimonial,index)=>(
 
-                <SwiperSlide>
+                <SwiperSlide className='cursor-grab'>
                     <img className='w-[500px] max-w-full mx-auto' key={index} src={testimonial.image} alt="testimonial" />
                 </SwiperSlide>
 
