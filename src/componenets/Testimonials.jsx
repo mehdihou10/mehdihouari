@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 const Testimonials = () => {
   return (
     <div>
-      <div id="testimonials">
+      <div className="pt-[100px]" id="testimonials">
         <div className="container">
         <SpecialTitle title='Testimonials' />
 
