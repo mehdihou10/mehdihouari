@@ -194,10 +194,10 @@ export const TechnologiesImgs = [
     name: "redux",
   },
 
-  // {
-  //   image: '/images/angular.png',
-  //   name: "angular",
-  // },
+  {
+    image: '/images/next.png',
+    name: "next js",
+  },
 
   {
     image: '/images/firebase.png',
