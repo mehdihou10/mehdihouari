@@ -20,7 +20,7 @@ const Projects = () => {
 
   <span className="page select-none grid place-items-center bg-blue-gradient w-[120px] h-[40px] text-[30px] font-semibold rounded-[6px]">{page}</span>
 
-  <div onClick={()=>setPage((prev)=>prev + 1)} className={`chevron ${page === projects.length - 1 ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}><FaChevronRight className='pointer-events-none' /></div>
+  <div onClick={()=>setPage((prev)=>prev + 1)} className={`chevron ${page === projects.length ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}><FaChevronRight className='pointer-events-none' /></div>
 
 
 </div>

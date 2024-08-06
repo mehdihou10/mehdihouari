@@ -54,18 +54,20 @@ export const projects = [
     },
     {
       title: 'Restaurant Landing Page',
-      description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+      description: "modern landing page showcasing our exquisite menu, ambiance, and easy reservations. Discover culinary excellence where every dish is a masterpiece.",
       image: '/images/5.jpg',
       
       visit: 'https://ge-richt.vercel.app/',
     },
+
     {
-      title: 'Crypto Dashboard',
-      description: "Immerse yourself in a visually stunning interface,you'll be greeted by a modern and engaging design that effortlessly guides you through the complexities of the crypto univers",
-      image: '/images/6.jpg',
+      title: 'Innova Agency Website',
+      description: "Innova Agency crafts innovative digital solutions, blending creativity with cutting-edge technology",
+      image: '/images/21.png',
       
-      visit: 'https://mehdihou10.github.io/crypto-dashboard_1/',
+      visit: 'https://innova-art-design.netlify.app',
     },
+
   ],
   [
     {
@@ -76,12 +78,13 @@ export const projects = [
       visit: 'https://mehdihou10.github.io/POD-Talk/',
     },
     {
-      title: 'Social Media App',
-      description: "Welcome to the mesmerizing Social Media App! Step into a vibrant online world where connections thrive, creativity flourishes, and limitless possibilities await.",
-      image: '/images/8.jpg',
+      title: 'Crypto Dashboard',
+      description: "Immerse yourself in a visually stunning interface,you'll be greeted by a modern and engaging design that effortlessly guides you through the complexities of the crypto univers",
+      image: '/images/6.jpg',
       
-      visit: 'https://mehdihou10.github.io/social-media-app/',
+      visit: 'https://mehdihou10.github.io/crypto-dashboard_1/',
     },
+   
     {
       title: 'Programming agency Website',
       description: "Prepare to be captivated by a website that seamlessly blends sleek aesthetics with powerful functionality.",
@@ -136,7 +139,6 @@ export const projects = [
       visit: 'https://mehdihou10.github.io/kasper-token-from-Graphberry/',
     },
   ],
-
   [
     {
       title: 'Cobsine Agency Website',
@@ -146,6 +148,13 @@ export const projects = [
       visit: 'https://mehdihou10.github.io/cobsine-token-from-free-html-templates/',
     },
   
+    {
+      title: 'Social Media App',
+      description: "Welcome to the mesmerizing Social Media App! Step into a vibrant online world where connections thrive, creativity flourishes, and limitless possibilities await.",
+      image: '/images/8.jpg',
+      
+      visit: 'https://mehdihou10.github.io/social-media-app/',
+    },
     {
       title: 'Leon Agency website',
       description: "Leon Website - The ultimate destination for a modern and dynamic online presence. With customizable templates and easy-to-use features.",
