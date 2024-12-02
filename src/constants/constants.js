@@ -24,6 +24,13 @@ export const projects = [
   ],
   [
     {
+      title: 'E-commerce Web app',
+      description:"Lamona Tech is a cutting-edge e-commerce web app designed to revolutionize online shopping. With its sleek and user-friendly interface.",
+      image: '/images/22.jpg',
+      
+      visit: 'https://lamona-p1.vercel.app/',
+    },
+    {
       title: 'Restaurant Website',
       description:"Valencina Restaurant is a charming culinary destination nestled in the heart of a picturesque town. With its warm and inviting atmosphere.",
       image: '/images/2.jpg',
@@ -37,14 +44,14 @@ export const projects = [
       
       visit: 'https://sway-suites.vercel.app/',
     },
+  ],
+  [
     {
       title: 'Hoobank Landing page',
       description: "At the Next Generation Bank, we are redefining the future of banking. Our cutting-edge website offers a seamless and innovative banking experience",
       image: '/images/3.jpg',
       visit: 'https://hoo-bank-tawny.vercel.app/',
     },
-  ],
-  [
     {
       title: 'GPT-4 Landing page',
       description: "Prepare to be amazed by the next evolution in artificial intelligence. GPT-4 Alpha One is here to redefine the boundaries of what's possible in the world of AI and natural language processing.",
@@ -60,6 +67,8 @@ export const projects = [
       visit: 'https://ge-richt.vercel.app/',
     },
 
+  ],
+  [
     {
       title: 'Innova Agency Website',
       description: "Innova Agency crafts innovative digital solutions, blending creativity with cutting-edge technology",
@@ -67,9 +76,6 @@ export const projects = [
       
       visit: 'https://innova-art-design.netlify.app',
     },
-
-  ],
-  [
     {
       title: 'Podcast website',
       description: "In this engaging podcast, join host POD TALK as they delve into a wide range of captivating topics and engage in thought-provoking conversations with experts, enthusiasts, and industry leaders.",
@@ -85,6 +91,8 @@ export const projects = [
       visit: 'https://mehdihou10.github.io/crypto-dashboard_1/',
     },
    
+  ],
+  [
     {
       title: 'Programming agency Website',
       description: "Prepare to be captivated by a website that seamlessly blends sleek aesthetics with powerful functionality.",
@@ -92,8 +100,6 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/programming-agency/',
     },
-  ],
-  [
     {
       title: 'Cororna Website',
       description: "Discover the ultimate source for staying up-to-date on COVID-19 with the sleek and modern Corona website. Get the latest news, statistics, and safety guidelines.",
@@ -108,6 +114,9 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/admin-dashboard/',
     },
+    
+  ],
+  [
     {
       title: 'Admin Dashboard 2',
       description: "Dashbord Website 2 - Elevate your professional portfolio with a website that speaks volumes about your skills and expertise.",
@@ -115,8 +124,6 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/mehdi-portfolio/',
     },
-  ],
-  [
     {
       title: 'Festival Landing Page',
       description: "Immerse yourself in a colorful and lively cultural celebration with the Festival website! Explore the diverse range of activities and performances.",
@@ -131,6 +138,9 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/mehdi-/',
     },
+    
+  ],
+  [
     {
       title: 'Kasper Landing Page',
       description: "Kasper Website - Unlock the potential of your brand with a sleek and professional online presence. ",
@@ -138,8 +148,6 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/kasper-token-from-Graphberry/',
     },
-  ],
-  [
     {
       title: 'Cobsine Agency Website',
       description: "Cobsine is your ultimate solution for a professional and stylish website. With our user-friendly platform and customizable templates.",
@@ -155,6 +163,8 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/social-media-app/',
     },
+  ],
+  [
     {
       title: 'Leon Agency website',
       description: "Leon Website - The ultimate destination for a modern and dynamic online presence. With customizable templates and easy-to-use features.",
@@ -254,13 +264,25 @@ export const TechnologiesImgs = [
 export const testimonials = [
 
   {
+    image: "/images/testimonial-3.jpg"
+  },
+  {
     image: "/images/testimonial-1.jpg"
   },
   {
-    image: "/images/testimonial-2.jpg"
+    image: "/images/testimonial-6.jpg"
   },
   {
-    image: "/images/testimonial-3.jpg"
+    image: "/images/testimonial-7.jpg"
+  },
+  {
+    image: "/images/testimonial-8.jpg"
+  },
+  {
+    image: "/images/testimonial-9.jpg"
+  },
+  {
+    image: "/images/testimonial-2.jpg"
   },
   {
     image: "/images/testimonial-4.jpg"
