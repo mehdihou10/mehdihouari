@@ -31,11 +31,12 @@ export const projects = [
       visit: 'https://lamona-p1.vercel.app/',
     },
     {
-      title: 'Restaurant Website',
-      description:"Valencina Restaurant is a charming culinary destination nestled in the heart of a picturesque town. With its warm and inviting atmosphere.",
-      image: '/images/2.jpg',
+      title: 'Streaming Platform',
+      description:"Our App is built to make users able to start Live or Video steaming to differant platforms like facebook, youtube, twitch... and also can play as a third-party to start stream directly on our platform",
+      image: '/images/23.jpg',
       
-      visit: 'https://mehdihou10.github.io/valencina/',
+      visit: '',
+      private: true,
     },
     {
       title: 'Luxary Hotel Website',
@@ -46,6 +47,13 @@ export const projects = [
     },
   ],
   [
+    {
+      title: 'Restaurant Website',
+      description:"Valencina Restaurant is a charming culinary destination nestled in the heart of a picturesque town. With its warm and inviting atmosphere.",
+      image: '/images/2.jpg',
+      
+      visit: 'https://mehdihou10.github.io/valencina/',
+    },
     {
       title: 'Hoobank Landing page',
       description: "At the Next Generation Bank, we are redefining the future of banking. Our cutting-edge website offers a seamless and innovative banking experience",
@@ -59,6 +67,9 @@ export const projects = [
       
       visit: 'https://gpt-4-alpha-one.vercel.app/',
     },
+
+  ],
+  [
     {
       title: 'Restaurant Landing Page',
       description: "modern landing page showcasing our exquisite menu, ambiance, and easy reservations. Discover culinary excellence where every dish is a masterpiece.",
@@ -66,9 +77,6 @@ export const projects = [
       
       visit: 'https://ge-richt.vercel.app/',
     },
-
-  ],
-  [
     {
       title: 'Innova Agency Website',
       description: "Innova Agency crafts innovative digital solutions, blending creativity with cutting-edge technology",
@@ -83,6 +91,9 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/POD-Talk/',
     },
+   
+  ],
+  [
     {
       title: 'Crypto Dashboard',
       description: "Immerse yourself in a visually stunning interface,you'll be greeted by a modern and engaging design that effortlessly guides you through the complexities of the crypto univers",
@@ -90,9 +101,6 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/crypto-dashboard_1/',
     },
-   
-  ],
-  [
     {
       title: 'Programming agency Website',
       description: "Prepare to be captivated by a website that seamlessly blends sleek aesthetics with powerful functionality.",
@@ -107,13 +115,7 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/corona-tokene-from-free-html-templatess/',
     },
-    {
-      title: 'Admin Dashboard 1',
-      description: "Dashbord Website 1 - Elevate your professional portfolio with a website that speaks volumes about your skills and expertise",
-      image: '/images/11.jpg',
-      
-      visit: 'https://mehdihou10.github.io/admin-dashboard/',
-    },
+    
     
   ],
   [
@@ -142,6 +144,13 @@ export const projects = [
   ],
   [
     {
+      title: 'Admin Dashboard 1',
+      description: "Dashbord Website 1 - Elevate your professional portfolio with a website that speaks volumes about your skills and expertise",
+      image: '/images/11.jpg',
+      
+      visit: 'https://mehdihou10.github.io/admin-dashboard/',
+    },
+    {
       title: 'Kasper Landing Page',
       description: "Kasper Website - Unlock the potential of your brand with a sleek and professional online presence. ",
       image: '/images/15.png',
@@ -156,6 +165,9 @@ export const projects = [
       visit: 'https://mehdihou10.github.io/cobsine-token-from-free-html-templates/',
     },
   
+    
+  ],
+  [
     {
       title: 'Social Media App',
       description: "Welcome to the mesmerizing Social Media App! Step into a vibrant online world where connections thrive, creativity flourishes, and limitless possibilities await.",
@@ -163,8 +175,6 @@ export const projects = [
       
       visit: 'https://mehdihou10.github.io/social-media-app/',
     },
-  ],
-  [
     {
       title: 'Leon Agency website',
       description: "Leon Website - The ultimate destination for a modern and dynamic online presence. With customizable templates and easy-to-use features.",
@@ -237,6 +247,14 @@ export const TechnologiesImgs = [
     name: "express js",
   },
   {
+    image: '/images/python.png',
+    name: "python",
+  },
+  {
+    image: '/images/django.png',
+    name: "django",
+  },
+  {
     image: '/images/postgresql.png',
     name: "postgres",
   },
@@ -268,6 +286,9 @@ export const testimonials = [
   },
   {
     image: "/images/testimonial-1.jpg"
+  },
+  {
+    image: "/images/testimonial-10.jpeg"
   },
   {
     image: "/images/testimonial-6.jpg"
